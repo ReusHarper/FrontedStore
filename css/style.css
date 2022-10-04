@@ -1,13 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 :root {
-    --primario: #9C27b0;
-    --pimario_oscuro: #89119d;
+    --primario: #9c27b0;
+    --primario_oscuro: #89119d;
     --secundario: #ffce00;
     --secundario_oscuro: rgb(233, 187, 2);
     --claro: rgb(216, 216, 216);
     --oscuro: rgb(32, 32, 32);
 
-    --fuente_principal: 'Staatliches', cursive;
+    --fuente_principal: "Staatliches", cursive;
 }
 
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--claro);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuente_principal);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
