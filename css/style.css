@@ -206,14 +206,41 @@ h1 {
 
 .nosotros__imagen {
     grid-row: 1 / 2;
-    /* max-width: 100%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 @media (min-width: 768px) {
     .nosotros__imagen {   
         grid-column: 2 / 3;
     }
+}
+
+/* ==================== Bloques ==================== */
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 450px) {
+    .bloques {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .bloques {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.bloque {
+    text-align: center;
+}
+
+.bloque__titulo {
+    margin: 0;
+}
+
+.bloque__imagen {
+    width: 100%;
 }
