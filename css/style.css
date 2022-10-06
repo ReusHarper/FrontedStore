@@ -207,7 +207,7 @@ h1 {
 
 .nosotros__imagen {
     grid-row: 1 / 2;
-    width: 65 %;
+    width: 65%;
     justify-self: center;
 }
 
