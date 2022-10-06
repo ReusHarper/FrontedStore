@@ -22,21 +22,21 @@
             <h1>React JS</h1>
             <div class="camisa">
                 <img src="./img/3.jpg" alt="Imagen del producto" class="camisa__imagen">
-            </div>
-            <div class="camisa__contenido">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis quod non doloremque expedita, explicabo harum sit? Culpa nisi sapiente sed pariatur praesentium maxime quis inventore qui, similique explicabo debitis.
-                </p>
-                <form action="" class="formulario">
-                    <select name="" id="">
-                        <option disabled selected> -- Seleccionar talla -- </option>
-                        <option>Chica</option>
-                        <option>Mediana</option>
-                        <option>Grande</option>
-                    </select>
-                    <input type="number" placeholder="Cantidad" min="1">
-                    <input type="submit" value="Agregar al carrito">
-                </form>
+                <div class="camisa__contenido">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo debitis quod non doloremque expedita, explicabo harum sit? Culpa nisi sapiente sed pariatur praesentium maxime quis inventore qui, similique explicabo debitis.
+                    </p>
+                    <form action="" class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected> -- Seleccionar talla -- </option>
+                            <option>Chica</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="formulario__campo formulario__campo--cantidad" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                    </form>
+                </div>
             </div>
         </main>
         <footer class="footer">
